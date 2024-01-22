@@ -11,7 +11,7 @@
 
 }
 .slidesize{
-    height: 500px;
+    height: 600px;
     width: 100%;
     object-fit: fill;
 }
@@ -24,4 +24,7 @@
 a{
     color: aliceblue;
     text-decoration: none;
+}
+hr{
+    color: black;
 }
