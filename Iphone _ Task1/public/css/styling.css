@@ -4,12 +4,16 @@
     margin: 0%;
 }
 #product{
-    background-image: url("../img/cover.jpg");
+    background-image:url("../img/cover.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 800px;
+
 }
 .slidesize{
     height: 500px;
     width: 100%;
-    object-fit: contain;
+    object-fit: fill;
 }
 .cardphoto{
     justify-content: center;

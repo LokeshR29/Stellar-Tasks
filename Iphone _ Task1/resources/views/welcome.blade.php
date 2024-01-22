@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>iPhone</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -21,7 +21,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-center blockquote" id="navbarNavDropdown" >
+          <div class="collapse navbar-collapse justify-content-center blockquote" id="navbarNavDropdown" style="height: 50px">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" >Home</a>
@@ -34,9 +34,9 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-3 text-end ">
-            <button type="button" class="btn btn-info btn-dark me-2" id="LogIn">Login</button>
-            <button type="button" class="btn btn-info me-2 btn-dark" id="SignIn">Sign Up</button>
+          <div class="col-md-3  justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
+            <button type="button" class="btn btn-info btn-dark me-2 " id="LogIn">Login</button>
+            <button type="button" class="btn btn-info me-2 btn-dark " id="SignIn" >Sign Up</button>
             <button type="button" class="btn btn-info me-2 btn-dark"><a href="/checkout">Purchase </a></button>
           </div>
         </div>
@@ -46,11 +46,11 @@
     <video src="{{asset('img/vid.mp4')}}" autoplay muted loop class="video"></video>
 
     <!-- Product -->
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center" id="product">
-        <div class="col-md-5 p-lg-5 mx-auto my-5 ">
-          <h1 class="display-4 fw-normal text-white fw-bolder">iPhone 16 Pro</h1>
-          <p class="lead fw-normal text-white fw-bolder">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-          <a class="btn btn-outline-secondary text-white">Coming soon</a>
+    <div class="position-relative overflow-hidden p-3 m-0  text-center" id="product">
+        <div class="col-md-5 p-lg-2 mx-auto my-5">
+                <h1 class="display-4 fw-normal text-white fw-bolder">iPhone 16 Pro</h1>
+                <p class="lead fw-normal text-white fw-bolder">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
+                <a class="btn btn-outline-secondary ">Coming soon</a>
         </div>
         <div class="product-device shadow-sm d-none d-md-block"></div>
         <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -66,37 +66,37 @@
         </div>
 
         <div class="carousel-inner ">
-          <div class="carousel-item active">
-            <img src="{{asset('img/ipx14.png')}}" class="slidesize">
+          <div class="carousel-item active ">
+            <img src="{{asset('img/carasoual.png')}}" class="slidesize">
 
             <div class="container">
-              <div class="carousel-caption text-start" >
+              <div class="carousel-caption text-end" >
                 <h1 class="fw-bolder text-dark">Iphone14</h1>
-                <p class="fw-bolder text-dark">Some representative placeholder content for the first slide of the carousel.</p>
+                <p class="fw-bolder text-dark">Book your phone</p>
                 <p><a class="btn btn-lg btn-primary">Sign up today</a></p>
               </div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <img src="{{asset('img/559950.webp')}}" class="slidesize">
+            <img src="{{asset('img/mac.jpg')}}" class="slidesize">
 
             <div class="container">
               <div class="carousel-caption">
-                <h1 class="fw-bolder text-dark">Another example headline.</h1>
-                <p class="fw-bolder text-dark">Some representative placeholder content for the second slide of the carousel.</p>
+                <h1 class="fw-bolder text-white">Another example headline.</h1>
+                <p class="fw-bolder text-white">Some representative placeholder content for the second slide of the carousel.</p>
                 <p><a class="btn btn-lg btn-primary" class="btn">Learn more</a></p>
               </div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <img src="{{asset('img/Apple-iPhone-15-lineup-design-230912_big.jpg.large.jpg')}}" class="slidesize">
+            <img src="{{asset('img/whiteiphone.jpg')}}" class="slidesize">
 
             <div class="container">
               <div class="carousel-caption text-end">
-                <h1 class="fw-bolder text-dark">One more for good measure.</h1>
-                <p class="fw-bolder text-dark">Some representative placeholder content for the third slide of this carousel.</p>
+                <h1 class="fw-bolder text-dark"> good measure.</h1>
+                <p class="fw-bolder text-dark">Somelder content for the third slide of this carousel.</p>
                 <p><a class="btn btn-lg btn-primary">Browse gallery</a></p>
               </div>
             </div>
@@ -117,7 +117,7 @@
 
     <!-- Card Group -->
 
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-around row row-cols-sm-1  row-cols-md-2">
 
         <div class="card bg-transparent mb-3" style="max-width: 25rem;">
             <div class="card-header bg-transparent font-weight-bold display-4" style="height: 225px" >Iphone 15 Pro & Iphone 15 Pro Max</div>
@@ -147,61 +147,71 @@
 
     <!-- Specification -->
 
-    <div class="card-group" >
-        <div class="card">
-        <img src={{asset('img/camera.png')}} class="card-img-top rounded-top-3 " style="height: 235.95px;" >
-        <div class="card-body">
-            <h5 class="card-title">Telephoto Camera</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-        </div>
-        </div>
-
-        <div class="card">
-        <img src={{asset('img/display.webp')}} class="card-img-top rounded-top-3" alt="..." style="height: 235.95px;">
-        <div class="card-body">
-            <h5 class="card-title">Tasto Azione</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-        </div>
+    <div class="card-group row row-cols-1 row-cols-md-2 row-cols-lg-3  g-4" >
+        <div class="col">
+            <div class="card p-2 " style="height:450px">
+                <img src={{asset('img/camera.png')}} class="card-img-top rounded " style="height: 235.95px;" >
+                    <div class="card-body">
+                        <h5 class="card-title">Telephoto Camera</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+            </div>
         </div>
 
-        <div class="card">
-        <img src={{asset('img/len.jpeg')}} class="card-img-top rounded-top-3" alt="..." style="height: 235.95px;" >
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-        </div>
-        </div>
-
-    </div>
-    <div class="card-group" >
-        <div class="card">
-        <img src={{asset('img/camera.png')}} class="card-img-top rounded-top-3 " style="height: 235.95px;">
-        <div class="card-body">
-            <h5 class="card-title">Telephoto Camera</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-        </div>
+        <div class="col">
+            <div class="card p-2" style="height:450px">
+                <img src={{asset('img/display.webp')}} class="card-img-top rounded" alt="..." style="height: 235.95px;">
+                <div class="card-body">
+                    <h5 class="card-title">Tasto Azione</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
         </div>
 
-        <div class="card">
-        <img src={{asset('img/display.webp')}} class="card-img-top rounded-top-3" style="height: 235.95px;">
-        <div class="card-body">
-            <h5 class="card-title">Tasto Azione</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-        </div>
+        <div class="col">
+            <div class="card p-2" style="height:450px">
+                <img src={{asset('img/len.jpeg')}} class="card-img-top rounded" alt="..." style="height: 235.95px;" >
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
         </div>
 
-        <div class="card">
-        <img src={{asset('img/len.jpeg')}} class="card-img-top rounded-top-3"  style="height: 235.95px;" >
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <div class="col">
+            <div class="card p-2" style="height:450px">
+                <img src={{asset('img/camera.png')}} class="card-img-top rounded " style="height: 235.95px;">
+                <div class="card-body">
+                    <h5 class="card-title">Telephoto Camera</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
         </div>
+
+        <div class="col">
+            <div class="card p-2" style="height:450px">
+                <img src={{asset('img/display.webp')}} class="card-img-top rounded" style="height: 235.95px;">
+                <div class="card-body">
+                    <h5 class="card-title">Tasto Azione</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card p-2" style="height:450px">
+                <img src={{asset('img/len.jpeg')}} class="card-img-top rounded"  style="height: 235.95px;" >
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
         </div>
     </div>
 
