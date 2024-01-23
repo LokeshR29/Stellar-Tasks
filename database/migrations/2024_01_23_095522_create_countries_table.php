@@ -11,14 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->increments('id')->unsigned();
+        Schema::create('countries', function (Blueprint $table) {
+
+            $table->increments('code')->unsigned();
             $table->string('name');
-            $table->string('email')->unique();
-            $table->string('gender');
-            $table->string('date_of_birth');
-            $table->integer('country_code')->unsigned();
-            $table->timestamp('created_at');
+            $table->string('continent_name');
         });
     }
 
@@ -27,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('countries');
     }
 };
