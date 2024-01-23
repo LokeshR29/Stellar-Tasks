@@ -119,7 +119,7 @@
 
     <div class="d-flex justify-content-around row row-cols-sm-1  row-cols-md-2">
 
-        <div class="card bg-transparent mb-3" style="max-width: 25rem;">
+        <div class="card bg-transparent mb-3 border-dark" style="max-width: 25rem;">
             <div class="card-header bg-transparent font-weight-bold display-4" style="height: 225px" >Iphone 15 Pro & Iphone 15 Pro Max</div>
             <div class="card-body ">
                 <img src="{{asset('img/iphone15pro.png')}}" class="cardphoto">
@@ -127,7 +127,7 @@
             <div class="card-footer bg-transparent fw-bolder h5">From ₹21483.00/mo.Per Month with instant savings and No Cost EMI</div>
         </div>
 
-        <div class="card bg-transparent mb-3" style="max-width: 25rem;">
+        <div class="card bg-transparent mb-3 border-dark" style="max-width: 25rem;">
             <div class="card-header bg-transparent font-weight-bold display-4" style="height: 225px" >Iphone 15  & Iphone 15 Plus</div>
             <div class="card-body ">
                 <img src="{{asset('img/iphone15.png')}}" class="cardphoto">
@@ -135,7 +135,7 @@
             <div class="card-footer bg-transparent fw-bolder h5">From ₹124830.00/mo.Per Month with instant savings and No Cost EM</div>
         </div>
 
-        <div class="card bg-transparent mb-3" style="max-width: 25rem;">
+        <div class="card bg-transparent mb-3 border-dark" style="max-width: 25rem;">
             <div class="card-header bg-transparent font-weight-bold display-4" style="height: 225px" >Iphone 14  & Iphone 14 Plus</div>
             <div class="card-body">
                 <img src="{{asset('img/iphone14plus.png')}}" class="cardphoto">
